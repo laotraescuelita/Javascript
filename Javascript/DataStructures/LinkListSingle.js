@@ -1,3 +1,10 @@
+// Esta idea de una estructura en forma de objetos discretos unidos por una linea, imaginaria en este caso, lo vemos desde que jugamos coleadas hasta en el metro. 
+// Asi es un objeto siendo señalado por otro, además tienen un orden hay un primer elemento, y asi hasta n elemetos. Podemos insertar en el medio de los objetos, 
+// podemos reemplazar el primero con otro elemento nuevo o simplemente colocarlos al final.
+// Estas listas pueden ser simples es decir solo apuntan en una sola dirección, pero también dobles para que apunten den ambas direcciones, en todo caso la realidad la definimos 
+// de acuerdo a nuestros prejuicios así que en teoría podría apuntar a un numero infinito de listas en ambas direcciones o incluso de manera circular, pero comencemos con el 
+// caso mas sencillo, entre comillas. 
+
 class Nodo{
     constructor( elemento ){
         this.elemento = elemento
